@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-01T17:01:02 WIB" name="Default Suite" finished-at="2023-12-01T17:01:07 WIB" duration-ms="5054">
+  <suite started-at="2023-12-04T13:42:15 WIB" name="Default Suite" finished-at="2023-12-04T13:42:20 WIB" duration-ms="4944">
     <groups>
     </groups>
-    <test started-at="2023-12-01T17:01:02 WIB" name="belajarselenium" finished-at="2023-12-01T17:01:07 WIB" duration-ms="5054">
-      <class name="curahealthcare.HomePageTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:curahealthcare.HomePageTest@10db82ae]" started-at="2023-12-01T17:01:02 WIB" name="init" finished-at="2023-12-01T17:01:06 WIB" duration-ms="3923" status="PASS">
+    <test started-at="2023-12-04T13:42:15 WIB" name="belajarselenium" finished-at="2023-12-04T13:42:20 WIB" duration-ms="4944">
+      <class name="curahealthcare.HomePageTest2">
+        <test-method is-config="true" signature="init()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:15 WIB" name="init" finished-at="2023-12-04T13:42:19 WIB" duration-ms="3893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkElement()[pri:0, instance:curahealthcare.HomePageTest@10db82ae]" started-at="2023-12-01T17:01:06 WIB" name="checkElement" finished-at="2023-12-01T17:01:06 WIB" duration-ms="290" status="PASS">
+        <test-method signature="checkElement()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="checkElement" finished-at="2023-12-04T13:42:19 WIB" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkElement -->
-        <test-method signature="testToggleMenu()[pri:1, instance:curahealthcare.HomePageTest@10db82ae]" started-at="2023-12-01T17:01:06 WIB" name="testToggleMenu" finished-at="2023-12-01T17:01:06 WIB" duration-ms="125" status="PASS">
+        <test-method signature="testToggleMenu()[pri:1, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="testToggleMenu" finished-at="2023-12-04T13:42:19 WIB" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToggleMenu -->
-        <test-method signature="clickButtonMakeAppointment()[pri:2, instance:curahealthcare.HomePageTest@10db82ae]" started-at="2023-12-01T17:01:06 WIB" name="clickButtonMakeAppointment" finished-at="2023-12-01T17:01:07 WIB" duration-ms="614" status="PASS">
+        <test-method signature="clickButtonMakeAppointment()[pri:2, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="clickButtonMakeAppointment" finished-at="2023-12-04T13:42:20 WIB" duration-ms="716" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickButtonMakeAppointment -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:curahealthcare.HomePageTest@10db82ae]" started-at="2023-12-01T17:01:07 WIB" name="closeBrowser" finished-at="2023-12-01T17:01:07 WIB" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:20 WIB" name="closeBrowser" finished-at="2023-12-04T13:42:20 WIB" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- curahealthcare.HomePageTest -->
+      </class> <!-- curahealthcare.HomePageTest2 -->
     </test> <!-- belajarselenium -->
   </suite> <!-- Default Suite -->
 </testng-results>

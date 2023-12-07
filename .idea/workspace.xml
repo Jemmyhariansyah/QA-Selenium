@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cc4ad7d-d5c1-4bd5-a1e7-6d467c634bf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/seleniumhq_selenium_java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auto-service-annotations-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auto-service-annotations-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.14.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/byte-buddy-1.14.5.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checker-qual-3.33.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/checker-qual-3.33.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/commons-exec-1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.18.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/error_prone_annotations-2.18.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/failsafe-3.3.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/failsafe-3.3.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/failureaccess-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/failureaccess-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-32.1.2-jre.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/guava-32.1.2-jre.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/j2objc-annotations-2.8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/j2objc-annotations-2.8.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jsr305-3.0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-api-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-events-1.28.0-alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-api-events-1.28.0-alpha.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-context-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-context-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-exporter-logging-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-exporter-logging-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-extension-incubator-1.28.0-alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-extension-incubator-1.28.0-alpha.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-common-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-common-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-logs-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-logs-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-metrics-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-metrics-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-trace-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-trace-1.28.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-semconv-1.28.0-alpha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-semconv-1.28.0-alpha.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/curahealthcare/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/curahealthcare/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/curahealthcare/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/curahealthcare/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-curahealthcare.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-curahealthcare.HomePageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YvjsmnTdmscoTGZXrf5swCmMyN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="TestNG.LoginPageTest">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/belajarselenium/test-output/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="belajarselenium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curahealthcare.HomePageTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="curahealthcare" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.HomePageTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageTest.checkElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="belajarselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curahealthcare.HomePageTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="curahealthcare" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.HomePageTest" />
+      <option name="METHOD_NAME" value="checkElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="belajarselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curahealthcare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="curahealthcare" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.HomePageTest.checkElement" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="TestNG.HomePageTest.checkElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cc4ad7d-d5c1-4bd5-a1e7-6d467c634bf3" name="Changes" comment="" />
+      <created>1701413160324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701413160324</updated>
+      <workItem from="1701413161325" duration="12325000" />
+      <workItem from="1701665383674" duration="89000" />
+      <workItem from="1701665502810" duration="822000" />
+      <workItem from="1701666361685" duration="1283000" />
+      <workItem from="1701670887536" duration="1602000" />
+      <workItem from="1701673102437" duration="5730000" />
+      <workItem from="1701939449295" duration="2330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

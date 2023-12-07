@@ -10,9 +10,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.awt.*;
-import java.sql.Driver;
 
-public class HomePageTest {
+public class HomePageTest{
     WebDriver driver;
 
     @BeforeTest
