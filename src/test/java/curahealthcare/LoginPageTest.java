@@ -34,7 +34,7 @@ public class LoginPageTest {
         Assert.assertEquals(driver.findElement(By.id("txt-password")).getAttribute("placeholder"),"Password");
 
     }
-    @Test(priority = 1)
+    @Test(priority = 0)
     private void loginWithNullValues(){
         driver.findElement(By.id("btn-login")).click();
         Assert.assertEquals(driver.findElement(By.className("text-danger")).getText(),"Login failed! Please ensure the username and password are valid.");
