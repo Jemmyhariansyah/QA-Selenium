@@ -43,6 +43,26 @@ public class LoginPageTest {
 
     @Test(priority = 2)
     public void loginWithWrongValues(){
+        driver.findElement(By.id("txt-username")).sendKeys("John Doe");
+        driver.findElement(By.id("txt-password")).sendKeys("wrongpassword");
+        driver.findElement(By.id("btn-login")).click();
+        Assert.assertEquals(driver.findElement(By.className("text-danger")).getText(),"Login failed! Please ensure the username and password are valid.");
+
+    }
+    @Test(priority = 3)
+    public void loginWithWrongUsername(){
+        driver.findElement(By.id("txt-username")).sendKeys("Jemms");
+        driver.findElement(By.id("txt-password")).sendKeys("ThisIsNotAPassword");
+        driver.findElement(By.id("btn-login")).click();
+        Assert.assertEquals(driver.findElement(By.className("text-danger")).getText(),"Login failed! Please ensure the username and password are valid.");
+    }
+
+    @Test(priority = 4)
+    public void loginWithCorrectValues(){
+        driver.findElement(By.id("txt-username")).sendKeys("John Doe");
+        driver.findElement(By.id("txt-password")).sendKeys("ThisIsNotAPassword");
+        driver.findElement(By.id("btn-login")).click();
+        Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/#appointment");
 
     }
 }
