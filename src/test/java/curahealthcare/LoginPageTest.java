@@ -16,9 +16,9 @@ public class LoginPageTest {
     public void init(){
         System.setProperty("webdriver.chrome.driver","C:/Program Files/chromedriver-win64/chromedriver.exe");
         driver = new ChromeDriver();
-
         driver.navigate().to("https://katalon-demo-cura.herokuapp.com/profile.php#login");
         driver.manage().window().maximize();
+
     }
 
     @Test(priority = 0)

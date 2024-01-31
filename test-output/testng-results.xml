@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-04T13:42:15 WIB" name="Default Suite" finished-at="2023-12-04T13:42:20 WIB" duration-ms="4944">
+  <suite started-at="2024-01-31T11:29:53 WIB" name="Default Suite" finished-at="2024-01-31T11:30:00 WIB" duration-ms="7089">
     <groups>
     </groups>
-    <test started-at="2023-12-04T13:42:15 WIB" name="belajarselenium" finished-at="2023-12-04T13:42:20 WIB" duration-ms="4944">
-      <class name="curahealthcare.HomePageTest2">
-        <test-method is-config="true" signature="init()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:15 WIB" name="init" finished-at="2023-12-04T13:42:19 WIB" duration-ms="3893" status="PASS">
+    <test started-at="2024-01-31T11:29:53 WIB" name="QA-Selenium" finished-at="2024-01-31T11:30:00 WIB" duration-ms="7089">
+      <class name="curahealthcare.LoginPageTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:53 WIB" name="init" finished-at="2024-01-31T11:29:57 WIB" duration-ms="4021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkElement()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="checkElement" finished-at="2023-12-04T13:42:19 WIB" duration-ms="124" status="PASS">
+        <test-method signature="checkElementLogin()[pri:0, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:57 WIB" name="checkElementLogin" finished-at="2024-01-31T11:29:57 WIB" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkElement -->
-        <test-method signature="testToggleMenu()[pri:1, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="testToggleMenu" finished-at="2023-12-04T13:42:19 WIB" duration-ms="105" status="PASS">
+        </test-method> <!-- checkElementLogin -->
+        <test-method signature="loginWithNullValues()[pri:1, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:57 WIB" name="loginWithNullValues" finished-at="2024-01-31T11:29:58 WIB" duration-ms="688" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToggleMenu -->
-        <test-method signature="clickButtonMakeAppointment()[pri:2, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:19 WIB" name="clickButtonMakeAppointment" finished-at="2023-12-04T13:42:20 WIB" duration-ms="716" status="PASS">
+        </test-method> <!-- loginWithNullValues -->
+        <test-method signature="loginWithWrongValues()[pri:2, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:58 WIB" name="loginWithWrongValues" finished-at="2024-01-31T11:29:59 WIB" duration-ms="795" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickButtonMakeAppointment -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:curahealthcare.HomePageTest2@22635ba0]" started-at="2023-12-04T13:42:20 WIB" name="closeBrowser" finished-at="2023-12-04T13:42:20 WIB" duration-ms="83" status="PASS">
+        </test-method> <!-- loginWithWrongValues -->
+        <test-method signature="loginWithWrongUsername()[pri:3, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:59 WIB" name="loginWithWrongUsername" finished-at="2024-01-31T11:29:59 WIB" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- curahealthcare.HomePageTest2 -->
-    </test> <!-- belajarselenium -->
+        </test-method> <!-- loginWithWrongUsername -->
+        <test-method signature="loginWithCorrectValues()[pri:4, instance:curahealthcare.LoginPageTest@57c758ac]" started-at="2024-01-31T11:29:59 WIB" name="loginWithCorrectValues" finished-at="2024-01-31T11:30:00 WIB" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectValues -->
+      </class> <!-- curahealthcare.LoginPageTest -->
+    </test> <!-- QA-Selenium -->
   </suite> <!-- Default Suite -->
 </testng-results>

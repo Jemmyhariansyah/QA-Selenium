@@ -5,13 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc4ad7d-d5c1-4bd5-a1e7-6d467c634bf3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/error_prone_annotations-2.23.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/failureaccess-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jquery-3.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-api-events-1.34.1-alpha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-context-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-exporter-logging-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-extension-incubator-1.34.1-alpha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-common-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-logs-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-metrics-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-trace-1.34.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentelemetry-semconv-1.23.1-alpha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-devtools-v120-4.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-devtools-v121-4.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-http-4.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-java-4.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/selenium-remote-driver-4.17.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/curahealthcare/MakeAppointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/seleniumhq_selenium_java.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/byte-buddy-1.14.5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/byte-buddy-1.14.11.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/checker-qual-3.33.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/checker-qual-3.41.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/error_prone_annotations-2.18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/guava-32.1.2-jre.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/guava-33.0.0-jre.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jquery-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-api-1.34.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-api-events-1.28.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-context-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-exporter-logging-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-extension-incubator-1.28.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-1.28.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/opentelemetry-sdk-1.34.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-common-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-logs-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-metrics-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-sdk-trace-1.28.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentelemetry-semconv-1.28.0-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-api-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-api-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-chrome-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-chrome-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-chromium-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-chromium-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v117-4.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v118-4.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v119-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-devtools-v119-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-devtools-v85-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-devtools-v85-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-edge-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-edge-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-firefox-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-firefox-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-http-4.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-ie-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-ie-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-java-4.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-json-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-json-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-manager-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-manager-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-os-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-os-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-remote-driver-4.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-safari-driver-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-safari-driver-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/selenium-support-4.15.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/selenium-support-4.17.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/testng-7.8.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/testng-7.9.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/curahealthcare/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/curahealthcare/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/curahealthcare/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/curahealthcare/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/curahealthcare/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/curahealthcare/HomePageTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/curahealthcare/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/curahealthcare/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/belajarselenium.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-curahealthcare.HomePageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/belajarselenium.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../QA-Selenium\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,12 +122,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jemmyhariansyah"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jemmyhariansyah&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -38,58 +137,77 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2YvjsmnTdmscoTGZXrf5swCmMyN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "true",
+    "JavaScript Debug.QA-Selenium.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.HomePageTest.executor": "Run",
+    "TestNG.LoginPageTest.executor": "Coverage",
+    "TestNG.MakeAppointment.checkElement.executor": "Run",
+    "TestNG.MakeAppointment.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.LoginPageTest">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/belajarselenium/test-output/index.html" useBuiltInWebServerPort="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="curahealthcare" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.MakeAppointment.checkElement">
+    <configuration name="QA-Selenium.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/QA-Selenium/test-output/Default Suite/QA-Selenium.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/QA-Selenium/test-output/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="belajarselenium" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="curahealthcare.HomePageTest" />
+          <option name="PATTERN" value="curahealthcare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="curahealthcare" />
-      <option name="MAIN_CLASS_NAME" value="curahealthcare.HomePageTest" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.LoginPageTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -105,25 +223,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.checkElement" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="belajarselenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="curahealthcare.HomePageTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="curahealthcare" />
-      <option name="MAIN_CLASS_NAME" value="curahealthcare.HomePageTest" />
-      <option name="METHOD_NAME" value="checkElement" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MakeAppointment" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="belajarselenium" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +232,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="curahealthcare" />
-      <option name="MAIN_CLASS_NAME" value="curahealthcare.LoginPageTest" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.MakeAppointment" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -140,19 +240,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MakeAppointment.checkElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="belajarselenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="curahealthcare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="curahealthcare" />
+      <option name="MAIN_CLASS_NAME" value="curahealthcare.MakeAppointment" />
+      <option name="METHOD_NAME" value="checkElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="TestNG.HomePageTest" />
+      <item itemvalue="JavaScript Debug.QA-Selenium.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="TestNG.MakeAppointment" />
+      <item itemvalue="TestNG.MakeAppointment.checkElement" />
       <item itemvalue="TestNG.LoginPageTest" />
-      <item itemvalue="TestNG.HomePageTest.checkElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MakeAppointment.checkElement" />
+        <item itemvalue="TestNG.MakeAppointment" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="TestNG.HomePageTest.checkElement" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.QA-Selenium.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-aba903c2" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -170,6 +299,9 @@
       <workItem from="1701673102437" duration="5730000" />
       <workItem from="1701939449295" duration="4153000" />
       <workItem from="1702345123397" duration="5236000" />
+      <workItem from="1706666903870" duration="53000" />
+      <workItem from="1706666961635" duration="1222000" />
+      <workItem from="1706668320447" duration="6545000" />
     </task>
     <servers />
   </component>
@@ -187,15 +319,12 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/curahealthcare/LoginPageTest.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QA_Selenium$LoginPageTest.ic" NAME="LoginPageTest Coverage Results" MODIFIED="1706675393111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>curahealthcare.*</FILTER>
+    </SUITE>
   </component>
 </project>
