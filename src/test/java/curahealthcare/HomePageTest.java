@@ -56,10 +56,11 @@ public class HomePageTest {
         driver.findElement(By.id("btn-make-appointment")).click();
         Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/profile.php#login");
     }
+    @AfterTest
+    private void closeBrowser(){
+        driver.quit();
+    }
 }
 
-//    @AfterTest
-//    private void closeBrowser(){
-//        driver.quit();
-//    }
-//}
+
+
