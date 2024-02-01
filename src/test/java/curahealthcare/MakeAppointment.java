@@ -2,11 +2,15 @@ package curahealthcare;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class MakeAppointment {
 
@@ -37,6 +41,8 @@ public class MakeAppointment {
     @Test(priority = 1)
     private void checkDropdown(){
         //dropdown
+        Select dropdownFacility  = new Select(driver.findElement(By.id("combo_facility")));
+        List<WebElement> dropdownOption =  dropdownFacility.getOptions();
         }
     @AfterTest
     private void closeBrowser(){
