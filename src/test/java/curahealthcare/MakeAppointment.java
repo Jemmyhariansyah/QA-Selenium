@@ -42,7 +42,13 @@ public class MakeAppointment {
     private void checkDropdown(){
         //dropdown
         Select dropdownFacility  = new Select(driver.findElement(By.id("combo_facility")));
-        List<WebElement> dropdownOption =  dropdownFacility.getOptions();
+        List<WebElement>dropdownOptions =  dropdownFacility.getOptions();
+        Assert.assertEquals(dropdownOptions.get(0).getAttribute("value"),"Tokyo CURA Healthcare Center");
+        Assert.assertEquals(dropdownOptions.get(1).getAttribute("value"),"Hongkong CURA Healthcare Center");
+        Assert.assertEquals(dropdownOptions.get(2).getAttribute("value"),"Seoul CURA Healthcare Center");
+
+        //check text area
+        Assert.assertEquals(driver.findElement(By.id("txt_comment")).getAttribute("placeholder"),"Comment");
         }
     @AfterTest
     private void closeBrowser(){
