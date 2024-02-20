@@ -49,7 +49,31 @@ public class MakeAppointment {
 
         //check text area
         Assert.assertEquals(driver.findElement(By.id("txt_comment")).getAttribute("placeholder"),"Comment");
-        }
+    }
+
+    @Test(priority = 2)
+    public void MakeAppointmentWithCorrectValue(){
+        Select dropdownFacility = new Select(driver.findElement(By.id("combo_facility")));
+        dropdownFacility.selectByValue("Hongkong CURA Healthcare Center");
+
+        //Check Box
+        driver.findElement(By.id("chk_hospotal_readmission")).click();
+
+        //RadioButton
+        driver.findElement(By.id("radio_program_medicaid")).click();
+
+        //Date
+        driver.findElement(By.id("txt_visit_date")).sendKeys("17/02/2024");
+
+        //Textarea
+        driver.findElement(By.id("txt_comment")).sendKeys("Test-dong");
+
+        //ButttonMakeappointment
+        driver.findElement(By.id("btn-book-appointment")).click();
+        Assert.assertEquals(driver.getCurrentUrl(),"https://katalon-demo-cura.herokuapp.com/appointment.php#summary");
+    }
+
+
     @AfterTest
     private void closeBrowser(){
         driver.quit();
